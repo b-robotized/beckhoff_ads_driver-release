@@ -1,0 +1,12 @@
+Source: ros-jazzy-beckhoff-ads-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: Nikola Banovic <nikola.banovic@b-robotized.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ads-vendor, ros-jazzy-ament-cmake, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-yaml-cpp-vendor, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-beckhoff-ads-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ads-vendor, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-yaml-cpp-vendor, ros-jazzy-ros-workspace
+Description: Ros2Control hardware interface for integrating with Beckhoff PLC
