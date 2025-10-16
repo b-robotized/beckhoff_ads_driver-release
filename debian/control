@@ -1,0 +1,12 @@
+Source: ros-kilted-beckhoff-ads-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: Nikola Banovic <nikola.banovic@b-robotized.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ads-vendor, ros-kilted-ament-cmake, ros-kilted-hardware-interface, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-yaml-cpp-vendor, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-beckhoff-ads-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ads-vendor, ros-kilted-hardware-interface, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-yaml-cpp-vendor, ros-kilted-ros-workspace
+Description: Ros2Control hardware interface for integrating with Beckhoff PLC
