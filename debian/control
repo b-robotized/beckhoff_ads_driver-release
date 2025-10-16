@@ -1,0 +1,12 @@
+Source: ros-rolling-beckhoff-ads-bringup
+Section: misc
+Priority: optional
+Maintainer: Nikola Banovic <nikola.banovic@b-robotized.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-beckhoff-ads-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-controller-manager, ros-rolling-robot-state-publisher, ros-rolling-xacro, ros-rolling-ros-workspace
+Description: Demo bringup package for beckhoff_ads_hardware_interface
