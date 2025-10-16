@@ -1,0 +1,12 @@
+Source: ros-jazzy-beckhoff-ads-bringup
+Section: misc
+Priority: optional
+Maintainer: Nikola Banovic <nikola.banovic@b-robotized.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-beckhoff-ads-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-controller-manager, ros-jazzy-robot-state-publisher, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Description: Demo bringup package for beckhoff_ads_hardware_interface
