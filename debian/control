@@ -1,0 +1,12 @@
+Source: ros-kilted-beckhoff-ads-bringup
+Section: misc
+Priority: optional
+Maintainer: Nikola Banovic <nikola.banovic@b-robotized.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-beckhoff-ads-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-controller-manager, ros-kilted-robot-state-publisher, ros-kilted-xacro, ros-kilted-ros-workspace
+Description: Demo bringup package for beckhoff_ads_hardware_interface
