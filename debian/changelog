@@ -1,0 +1,11 @@
+ros-rolling-beckhoff-ads-hardware-interface (1.0.0-2noble) noble; urgency=high
+
+  * change deprecated ament_target_dependencies
+  * update maintainer/author
+  * add LICENSE
+  * rename everything to beckhoff_ads_hardware_interface
+  * Contributors: nibanovic
+
+ -- Nikola Banovic <nikola.banovic@b-robotized.com>  Tue, 16 Sep 2025 22:00:00 -0000
+
+
